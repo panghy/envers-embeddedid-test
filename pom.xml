@@ -2,10 +2,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.hibernate.clementp</groupId>
-  <artifactId>envers-embeddedid-test</artifactId>
+  <artifactId>envers-HHH7157-test</artifactId>
   <version>1.0.0</version>
   <packaging>jar</packaging>
-  <name>envers-embeddedid-test</name>
+  <name>HHH-7157</name>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>

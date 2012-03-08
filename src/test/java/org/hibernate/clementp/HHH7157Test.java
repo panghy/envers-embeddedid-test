@@ -9,7 +9,7 @@ import org.junit.*;
 import javax.persistence.EntityManager;
 import java.util.Properties;
 
-public class EnversTest {
+public class HHH7157Test {
   static private Ejb3Configuration cfg = null;
   static private EntityManagerFactoryImpl emf = null;
   private EntityManager em = null;
@@ -47,7 +47,7 @@ public class EnversTest {
     em.persist(personA);
     em.persist(personB);
     Constant cons = new Constant();
-    cons.id = "USD" ;
+    cons.id = "USD";
     cons.name = "US Dollar";
     em.persist(cons);
     PersonTuple tuple = new PersonTuple(true, personA, personB, cons);
