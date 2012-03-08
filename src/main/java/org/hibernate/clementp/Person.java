@@ -18,10 +18,10 @@ public class Person implements Serializable {
   public String name;
 
   //@NotAudited
-  @OneToMany(mappedBy = "personA", cascade = {CascadeType.PERSIST}, orphanRemoval = true)
+  @OneToMany(mappedBy = "personA")
   public Set<PersonTuple> personATuples = new HashSet<PersonTuple>();
 
   //@NotAudited
-  @OneToMany(mappedBy = "personB", cascade = {CascadeType.PERSIST}, orphanRemoval = true)
+  @OneToMany(mappedBy = "personB")
   public Set<PersonTuple> personBTuples = new HashSet<PersonTuple>();
 }
